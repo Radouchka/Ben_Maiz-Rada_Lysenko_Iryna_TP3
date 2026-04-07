@@ -38,4 +38,4 @@ Rester sur place pour le jeu ou Bouger en vrai vie.
 
 Model 3d a modeliser chaque personne + due date of when each person has to present their item.
 
-
+- **asset kit:** https://kenney.nl/assets/retro-fantasy-kit
