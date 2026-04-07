@@ -80,7 +80,11 @@ Présentation des éléments individuels selon un calendrier défini
 - **asset kit:** https://kenney.nl/assets/retro-fantasy-kit
 - **Jeu pour s'inspirer:** https://youtu.be/7ROzsoNWZHI?si=0Kub8O5o-up0kmY2
 
-# SOUNDS
+# MoodBoard
+
+
+
+# Sons - effets -musique
 
 Sound effects :
 https://pixabay.com/sound-effects/film-special-effects-085594-potion-35983/
@@ -99,6 +103,6 @@ https://pixabay.com/sound-effects/film-special-effects-clock-strike-64020/
 https://pixabay.com/sound-effects/film-special-effects-%c3%a9p%c3%a9e-342933/
 https://pixabay.com/music/cartoons-hava-nagila-445173/
 
-# Schéma de Jew
+# Schéma de Jeu
 
 ![Alt text](TP3_projet_final/Assets/SchemaJeux.png)
