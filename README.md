@@ -62,4 +62,4 @@ https://pixabay.com/music/cartoons-hava-nagila-445173/
 
 # Schéma de Jew
 
-![Alt text](TP3_projet_final/Assets/SchémaJeux.png)
+![Alt text](TP3_projet_final/Assets/SchemaJeux.png)
