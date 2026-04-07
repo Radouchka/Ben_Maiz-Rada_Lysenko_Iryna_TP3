@@ -1,42 +1,81 @@
 # Ben_Maiz-Rada_Lysenko_Iryna_TP3
-meow
 
 -----------------------------------------------------------------------------------------------------------
-- Person wakes up, finds themselves in place (undefined), locked place needs to escape something creepy. Uses potion with mysterious liquid to teleport into fever dream creepy and bloody version of location.
+Le joueur incarne un personnage qui se réveille dans un lieu inconnu et confiné, sans aucun souvenir clair. L’environnement est inquiétant et semble évoluer entre réalité et hallucination.
 
-- Objectif, escape the area and find peace of before disaster.
+Pour progresser, le joueur utilise des potions mystérieuses qui lui permettent de basculer dans une version alternative du monde : un univers déformé, violent et cauchemardesque. Ces transitions révèlent des indices essentiels à sa survie.
 
-- Mechanics : Scene transitioning ( flou, hallucination ), potion object contact collision shape w player. Puzzle (chercher un indice dans l'autre monde pour ouvrir ou ressoudre une enigma situer au temps reel.
+L’objectif principal est de s’échapper de cet espace tout en découvrant la vérité derrière un événement tragique survenu auparavant, et retrouver une forme de paix.
 
-- Style de jeu : Fran Bow
+# Intention du jeu
 
-- Aesthetic : Medieval
+Le jeu vise à :
 
-- Palette de couleur : Blues, reds, greens Dark.
+Explorer les thèmes de la perception altérée, de la folie et de la culpabilité
+Créer une tension psychologique constante via des changements de réalité
+Encourager l’observation et la réflexion à travers des puzzles interdimensionnels
+Offrir une narration implicite où le joueur reconstruit les événements passés
 
-- Draw a map of the game 
+## Gameplay & Mécaniques
+Transitions entre mondes
+Passage entre réalité et hallucination via des potions
+Effets visuels : flou, distorsion, changements d’ambiance
+Modifications dynamiques de l’environnement
+Système de potions
+Collecte de 8 potions au total
+Activation par collision avec le joueur
+Effet temporaire (téléportation vers une autre dimension)
+Énigmes
+Résolution de puzzles en exploitant les deux dimensions
+Recherche d’indices dans le monde alternatif pour influencer la réalité
+Systèmes de codes, leviers, mécanismes verrouillés
+ ## Système de tension
+Si le joueur ne consomme pas de potion pendant un certain temps :
+Apparition progressive de créatures
+Altération des animations et de l’environnement (ex : ciel, ambiance sonore)
+Intensification de l’instabilité mentale du personnage
+ ## Structure du jeu
+Exploration du château et de ses extérieurs
+3 chemins narratifs possibles
+Progression non linéaire avec zones à revisiter
+Plusieurs transitions de scènes fréquentes
+Direction artistique
+## Style visuel
+Inspiré de Fran Bow (horreur psychologique, esthétique dessinée)
+Univers médiéval sombre
+## Palette de couleurs
+Tons dominants :
+Bleu sombre
+Rouge profond
+Vert désaturé
+Contrastes forts entre réalité et hallucination
+## Concepts narratifs
+Concept A — Le Bouffon
 
--  Idea A:Crazy Depressed Jester drinks potions, goes insane and try to escape de dungeon of the king.
+Un bouffon dépressif devenu instable consomme des potions et sombre dans la folie. Il tente de s’échapper des geôles du roi.
 
-- Idea B: Night guard insomniac guarding the castle gates, starts to see things , second effects of the potion making him go crazy. (magic) Try's to stay awake. Collection of potions (TP2 mechanism with timer). 
+La dernière potion se trouve dans le château
+Rencontre finale avec un démon (boss)
+Révélation : le joueur tue le roi en pensant combattre une illusion
 
-Animation change by time if player did not collect a potion for x amount of time. Animation plays. The more there is no potion the more creatures appear. Skydome animation change. A lot of scene transitions.
+Concept B — Le Garde
+Un garde de nuit insomniaque surveille les portes du château. Affecté par des potions magiques, il commence à halluciner.
+Mécanique de gestion de l’éveil (rester conscient)
+Collecte de potions avec effets temporisés
+Dégradation mentale progressive
 
-A couple of riddles. Codes...etc.
+### Éléments clés
+8 potions à collecter
+Plusieurs énigmes et systèmes de codes
+Un combat de boss (selon le concept choisi)
+Évolution dynamique de l’environnement
+Traversée d’une planche en bois (équilibre)
+Interaction à distance (ex : activer un levier)
 
-3 different paths
-
-8 potions to collect.
-
-Concept A : 8 potions, last one is in the castle, once u find it u find a demon too. (boss fight, mental health goes good, you slice it and then blink out of the illusion to find out you actually killed the king.
-
-Walk around the castle, outside .  
-
-Challenge VR : cross A woden plank. Pull a lever using remote.
-
-Rester sur place pour le jeu ou Bouger en vrai vie.
-
-Model 3d a modeliser chaque personne + due date of when each person has to present their item.
+### Production
+Modélisation 3D des personnages et environnements
+Organisation du travail avec livrables et échéances par membre
+Présentation des éléments individuels selon un calendrier défini
 
 - **asset kit:** https://kenney.nl/assets/retro-fantasy-kit
 - **Jeu pour s'inspirer:** https://youtu.be/7ROzsoNWZHI?si=0Kub8O5o-up0kmY2
