@@ -36,4 +36,6 @@ Challenge VR : cross A woden plank. Pull a lever using remote.
 
 Rester sur place pour le jeu ou Bouger en vrai vie.
 
+Model 3d a modeliser chaque personne + due date of when each person has to present their item.
+
 
