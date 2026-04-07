@@ -60,3 +60,6 @@ https://pixabay.com/sound-effects/film-special-effects-clock-strike-64020/
 https://pixabay.com/sound-effects/film-special-effects-%c3%a9p%c3%a9e-342933/
 https://pixabay.com/music/cartoons-hava-nagila-445173/
 
+# Schéma de Jew
+
+![Alt text](TP3_projet_final/Assets/SchémaJeux.png)
