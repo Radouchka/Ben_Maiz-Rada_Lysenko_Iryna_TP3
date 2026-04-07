@@ -40,3 +40,23 @@ Model 3d a modeliser chaque personne + due date of when each person has to prese
 
 - **asset kit:** https://kenney.nl/assets/retro-fantasy-kit
 - **Jeu pour s'inspirer:** https://youtu.be/7ROzsoNWZHI?si=0Kub8O5o-up0kmY2
+
+# SOUNDS
+
+Sound effects :
+https://pixabay.com/sound-effects/film-special-effects-085594-potion-35983/
+https://pixabay.com/sound-effects/horror-nightmare-68768/
+https://pixabay.com/users/freesound_community-46691455/
+https://pixabay.com/sound-effects/horror-noisy-nightmare-drone-74472/
+https://pixabay.com/sound-effects/film-special-effects-slow-cinematic-clock-ticking-tension-2-323078/
+https://pixabay.com/sound-effects/film-special-effects-clock-strike-64020/
+https://pixabay.com/sound-effects/film-special-effects-medieval-funeral-159886/
+https://pixabay.com/sound-effects/nature-night-ambience-29548/
+https://pixabay.com/sound-effects/film-special-effects-footsteps-walking-boots-parquet-1-420135/
+https://pixabay.com/sound-effects/film-special-effects-foley-footsteps-laminate-001-77031/
+https://pixabay.com/sound-effects/horror-whisper-voices-1-193087/
+https://pixabay.com/sound-effects/horror-demon-chant-latin-14489/
+https://pixabay.com/sound-effects/film-special-effects-clock-strike-64020/
+https://pixabay.com/sound-effects/film-special-effects-%c3%a9p%c3%a9e-342933/
+https://pixabay.com/music/cartoons-hava-nagila-445173/
+
