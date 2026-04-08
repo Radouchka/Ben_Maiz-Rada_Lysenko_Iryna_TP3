@@ -1,4 +1,4 @@
-# Ben_Maiz-Rada_Lysenko_Iryna_TP3
+# La Garde Nocturne
 
 -----------------------------------------------------------------------------------------------------------
 Le joueur incarne un personnage qui se réveille dans un lieu inconnu et confiné, sans aucun souvenir clair. L’environnement est inquiétant et semble évoluer entre réalité et hallucination.
@@ -7,7 +7,7 @@ Pour progresser, le joueur utilise des potions mystérieuses qui lui permettent 
 
 L’objectif principal est de s’échapper de cet espace tout en découvrant la vérité derrière un événement tragique survenu auparavant, et retrouver une forme de paix.
 
-# Intention du jeu
+## Intention du jeu
 
 Le jeu vise à :
 
