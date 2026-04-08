@@ -81,8 +81,9 @@ Présentation des éléments individuels selon un calendrier défini
 - **Jeu pour s'inspirer:** https://youtu.be/7ROzsoNWZHI?si=0Kub8O5o-up0kmY2
 
 # MoodBoard
-![Alt text](TP3_projet_final/Assets/MoodBoard_gameplay.png)
-![Alt text](TP3_projet_final/Assets/MoodBoard.png)
+![moodboard_gameplay](TP3_projet_final/Assets/MoodBoard_gameplay.png)
+![moodboard](TP3_projet_final/Assets/MoodBoard.png)
+![carte](TP3_projet_final/Assets/carte.jpg)
 
 # Sons - effets -musique
 
