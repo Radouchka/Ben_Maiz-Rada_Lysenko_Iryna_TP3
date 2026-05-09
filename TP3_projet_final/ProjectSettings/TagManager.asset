@@ -9,6 +9,7 @@ TagManager:
   - prison
   - entry
   - bedroom
+  - potion
   layers:
   - Default
   - TransparentFX
