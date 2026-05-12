@@ -2054,14 +2054,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 50000
+  m_Intensity: 3183.0989
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
-  m_InnerSpotPercent: 0
+  m_InnerSpotPercent: 20.4
   m_SpotIESCutoffPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
-  m_LightUnit: 0
+  m_LightUnit: 2
   m_FadeDistance: 10000
   m_VolumetricFadeDistance: 10000
   m_AffectDiffuse: 1
@@ -2173,12 +2173,12 @@ Light:
   m_GameObject: {fileID: 416731921}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 0
+  m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 233541.8
-  m_Range: 20
-  m_SpotAngle: 30
+  m_Color: {r: 1, g: 0.72802645, b: 0.41194963, a: 1}
+  m_Intensity: 3183.0989
+  m_Range: 40
+  m_SpotAngle: 59
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -2219,8 +2219,8 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 1
+  m_ColorTemperature: 1778
+  m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0.1, y: 0, z: 1.7101007, w: -4.698463}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -2235,7 +2235,7 @@ Transform:
   m_GameObject: {fileID: 416731921}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 774, y: 461, z: 20.687346}
+  m_LocalPosition: {x: 817, y: 496, z: -72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3787,7 +3787,7 @@ Transform:
   m_GameObject: {fileID: 783885803}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 774, y: 457.4718, z: 21}
+  m_LocalPosition: {x: 817, y: 494, z: -71.68735}
   m_LocalScale: {x: 1.8877, y: 1, z: 2.6488}
   m_ConstrainProportionsScale: 0
   m_Children: []
