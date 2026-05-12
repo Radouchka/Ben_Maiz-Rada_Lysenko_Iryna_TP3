@@ -5,6 +5,7 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
     public AudioSource potionSound;
+    public AudioSource doorSound;
     public int count;
 
     private void OnTriggerEnter(Collider other)
@@ -14,6 +15,10 @@ public class player : MonoBehaviour
             other.gameObject.SetActive(false);
             count++;
             potionSound.Play();
+        }
+        else if (other.tag == "door")
+        {
+            doorSound.Play();
         }
     }
 }

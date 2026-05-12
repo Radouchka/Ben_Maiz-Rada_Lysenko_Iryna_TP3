@@ -10,6 +10,7 @@ TagManager:
   - entry
   - bedroom
   - potion
+  - door
   layers:
   - Default
   - TransparentFX
