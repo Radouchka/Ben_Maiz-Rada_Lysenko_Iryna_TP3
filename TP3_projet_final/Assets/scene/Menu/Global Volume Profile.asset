@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: -0.4902558
+    m_Value: -0.41666582
   compensation:
     m_OverrideState: 1
     m_Value: -2
@@ -178,7 +178,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.117024526, g: 0.17623162, b: 0.61006284, a: 1}
+    m_Value: {r: 0.0330682, g: 0.095019504, b: 0.55345905, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 5000
@@ -275,16 +275,16 @@ MonoBehaviour:
     m_Value: -0.5
   contrast:
     m_OverrideState: 1
-    m_Value: -5.6
+    m_Value: -1
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.031194147, g: 0.03053674, b: 0.050314426, a: 1}
+    m_Value: {r: 0.11320752, g: 0.06487772, b: 0.007475952, a: 1}
   hueShift:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -7
   saturation:
     m_OverrideState: 1
-    m_Value: 5.6
+    m_Value: -57
 --- !u!114 &1272991803766777947
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -349,10 +349,10 @@ MonoBehaviour:
     m_Value: 0
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.078497626, g: 0.13328744, b: 0.30817598, a: 1}
+    m_Value: {r: 0.9496855, g: 0.49866936, b: 0.074660614, a: 1}
   dirtTexture:
     m_OverrideState: 1
     m_Value: {fileID: 0}
