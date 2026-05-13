@@ -40433,12 +40433,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.531
+      value: 0.562
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19559264
+      value: 0.171
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
         type: 3}
@@ -40484,6 +40484,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: King
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5b3585678adf9084a99872a8b961ca83, type: 2}
+    - target: {fileID: 5866666021909216657, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'shin.L'\n\tTransform 'shin.R'\n\tFrom animation
+        clip 'king_death'"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52968,7 +52981,7 @@ PrefabInstance:
     - target: {fileID: 7099349272972731195, guid: 8c3d28c84bd118d46bb155bd308cda62,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.25
+      value: 30.101
       objectReference: {fileID: 0}
     - target: {fileID: 7099349272972731195, guid: 8c3d28c84bd118d46bb155bd308cda62,
         type: 3}
