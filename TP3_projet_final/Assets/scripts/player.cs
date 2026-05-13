@@ -9,6 +9,7 @@ public class player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Collided with: " + other.gameObject.name);
         if (other.CompareTag("potion"))
         {
             other.gameObject.SetActive(false);

@@ -73,6 +73,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6989415339981113747, guid: d35a61cde39de2447868d0a85c00294d,
+        type: 3}
+      propertyPath: m_TagString
+      value: potion
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d35a61cde39de2447868d0a85c00294d,
         type: 3}
       propertyPath: m_Name
@@ -81,7 +86,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d35a61cde39de2447868d0a85c00294d,
         type: 3}
       propertyPath: m_TagString
-      value: potion
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 2993494438617795408, guid: d35a61cde39de2447868d0a85c00294d,
         type: 3}
@@ -103,7 +108,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -6989415339981113747, guid: d35a61cde39de2447868d0a85c00294d,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3504384194079846535}
+      addedObject: {fileID: 4490133859171050135}
   m_SourcePrefab: {fileID: 100100000, guid: d35a61cde39de2447868d0a85c00294d, type: 3}
 --- !u!1 &7624070939667855745 stripped
 GameObject:
@@ -151,8 +156,8 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7282124823206741200}
   m_PrefabAsset: {fileID: 0}
---- !u!135 &3504384194079846535
-SphereCollider:
+--- !u!65 &4490133859171050135
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -170,5 +175,5 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.05
-  m_Center: {x: 9.313226e-10, y: 0.022413354, z: -4.656613e-10}
+  m_Size: {x: 0.024188094, y: 0.053671613, z: 0.024188094}
+  m_Center: {x: -0.00000011827797, y: 0.022413354, z: -0.000000030267984}
