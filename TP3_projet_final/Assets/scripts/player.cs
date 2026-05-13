@@ -15,9 +15,5 @@ public class player : MonoBehaviour
             count++;
             potionSound.Play();
         }
-        else if (other.tag == "door")
-        {
-            doorSound.Play();
-        }
     }
 }
