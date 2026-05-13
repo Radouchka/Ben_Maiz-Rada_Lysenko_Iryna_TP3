@@ -12,6 +12,7 @@ TagManager:
   - potion
   - door
   - roi
+  - epee
   layers:
   - Default
   - TransparentFX

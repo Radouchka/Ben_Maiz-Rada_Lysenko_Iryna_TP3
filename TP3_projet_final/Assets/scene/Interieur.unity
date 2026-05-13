@@ -4702,15 +4702,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 147815812}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7079657, z: -0, w: 0.706247}
-  m_LocalPosition: {x: -27.77, y: 5.36, z: 0.83}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.75, y: 5.36, z: -5.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1045123494}
   - {fileID: 147651094}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90.139, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &149367146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9083,7 +9083,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
@@ -40655,10 +40655,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: d8bbfd5dcdfef9941ad5e27030cc9d1d,
         type: 3}
       propertyPath: m_WarningMessage
-      value: "\nBinding warning: Some generic clip(s) animate transforms that are
-        already bound by a Humanoid avatar. These transforms can only be changed
-        by Humanoid clips.\n\tTransform 'shin.L'\n\tTransform 'shin.R'\n\tFrom animation
-        clip 'king_death'"
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -44415,11 +44412,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1755871569}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 101020, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_Name
-      value: SD_Prop_Sword_Rusty_01
+      value: epee
+      objectReference: {fileID: 0}
+    - target: {fileID: 101020, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
+      propertyPath: m_TagString
+      value: epee
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44427,27 +44428,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.37
+      value: 6.3757095
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.61
+      value: -2.5960212
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.80284375
+      value: 0.8028433
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.00088051264
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.59618956
+      value: 0.5961892
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.0006538663
       objectReference: {fileID: 0}
     - target: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44466,12 +44467,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9801b496c0b22542bd354dbd33e894d, type: 3}
---- !u!4 &1372264574 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 441350, guid: a9801b496c0b22542bd354dbd33e894d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1372264573}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1372315086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58054,7 +58049,6 @@ Transform:
   - {fileID: 1613693965}
   - {fileID: 1809157066}
   - {fileID: 34512274}
-  - {fileID: 1372264574}
   - {fileID: 1399522141}
   - {fileID: 2001980478}
   m_Father: {fileID: 0}
@@ -71586,5 +71580,6 @@ SceneRoots:
   - {fileID: 1315778960}
   - {fileID: 1454442945}
   - {fileID: 449751929}
+  - {fileID: 1372264573}
   - {fileID: 1452884840}
   - {fileID: 147815813}
