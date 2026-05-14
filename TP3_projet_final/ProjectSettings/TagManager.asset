@@ -13,6 +13,7 @@ TagManager:
   - door
   - roi
   - epee
+  - castle
   layers:
   - Default
   - TransparentFX
