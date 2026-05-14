@@ -25,5 +25,10 @@ public class player : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
+
+        if (other.CompareTag("indoor"))
+        {
+            SceneManager.LoadScene(sceneName);
+        }
     }
 }
