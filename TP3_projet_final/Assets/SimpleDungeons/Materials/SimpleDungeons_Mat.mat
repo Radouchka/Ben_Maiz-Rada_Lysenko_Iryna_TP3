@@ -96,7 +96,7 @@ Material:
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
-    - _AlphaRemapMax: 1
+    - _AlphaRemapMax: 0.99999994
     - _AlphaRemapMin: 0
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
