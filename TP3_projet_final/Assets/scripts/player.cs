@@ -8,7 +8,6 @@ public class player : MonoBehaviour
     public string sceneName;
     public AudioSource potionSound;
     public int count;
-    public GameObject lastPotion;
 
     private void OnTriggerEnter(Collider other)
     {
