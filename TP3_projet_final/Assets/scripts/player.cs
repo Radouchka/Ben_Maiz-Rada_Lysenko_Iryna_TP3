@@ -8,6 +8,7 @@ public class player : MonoBehaviour
     public string sceneName;
     public AudioSource potionSound;
     public int count;
+    public GameObject door;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,6 +19,11 @@ public class player : MonoBehaviour
             other.gameObject.SetActive(false);
             count++;
             potionSound.Play();
+
+             if (count >= 5)
+            {
+            door.SetActive(false);
+            }
         }
 
         if (other.CompareTag("castle"))
@@ -29,5 +35,6 @@ public class player : MonoBehaviour
         {
             SceneManager.LoadScene(sceneName);
         }
+
     }
 }

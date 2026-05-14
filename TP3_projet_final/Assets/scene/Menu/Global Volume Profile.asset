@@ -178,7 +178,7 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.5345911, g: 0.41523266, b: 0.41523266, a: 1}
   maxFogDistance:
     m_OverrideState: 1
     m_Value: 5000
@@ -278,7 +278,7 @@ MonoBehaviour:
     m_Value: -41
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.899371, g: 0.8360393, b: 0.80604, a: 1}
+    m_Value: {r: 0.8742138, g: 0.76150066, b: 0.76194507, a: 1}
   hueShift:
     m_OverrideState: 1
     m_Value: 0
