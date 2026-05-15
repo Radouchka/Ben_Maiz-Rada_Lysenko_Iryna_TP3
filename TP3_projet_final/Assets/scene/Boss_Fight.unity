@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 2
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -900,13 +900,13 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: -1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -3553,7 +3553,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -3599,10 +3599,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damagePerHit: 1
-  enemyLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  hitCooldown: 0.3
+  hitCooldown: 1
+  hitSound: {fileID: 8300000, guid: 68efa02cfa9cd3e42b76d4c52a4a4c8d, type: 3}
 --- !u!1 &353135108 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c9fad01cd9af5245a49f63cb1842d6c,
@@ -3692,8 +3690,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
-  useRagdoll: 1
-  despawnDelay: 3
+  despawnDelay: 2
+  healthText: {fileID: 1274706775}
 --- !u!1001 &355710449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13937,7 +13935,7 @@ GameObject:
   - component: {fileID: 1274706776}
   - component: {fileID: 1274706775}
   m_Layer: 5
-  m_Name: HPtext
+  m_Name: HPtexte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
