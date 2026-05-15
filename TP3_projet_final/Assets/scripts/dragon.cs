@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-//tutoriel, trouvé sur YouTube https://youtu.be/UjkSFoLxesw?si=3P-LILfTUvRUFoae
+//tutoriel, trouvÃ© sur YouTube https://youtu.be/UjkSFoLxesw?si=3P-LILfTUvRUFoae
 
 public class Dragon : MonoBehaviour
 {
@@ -9,16 +9,13 @@ public class Dragon : MonoBehaviour
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
 
-    // Patrolling
     public Vector3 walkPoint;
     bool walkPointSet;
     public float walkPointRange;
 
-    // Attacking
     public float timeBetweenAttacks;
     bool alreadyAttacked;
 
-    // States
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
@@ -30,12 +27,14 @@ public class Dragon : MonoBehaviour
 
     private void Update()
     {
-        // Check ranges
-        playerInSightRange =
-            Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+        if (agent == null || !agent.isActiveAndEnabled)
+            return;
 
-        playerInAttackRange =
-            Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
+        if (!agent.isOnNavMesh)
+            return;
+
+        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
         if (!playerInSightRange && !playerInAttackRange)
             Patroling();
@@ -49,6 +48,11 @@ public class Dragon : MonoBehaviour
 
     private void Patroling()
     {
+        if (!agent.isActiveAndEnabled)
+            return;
+
+        agent.isStopped = false;
+
         if (!walkPointSet)
             SearchWalkPoint();
 
@@ -57,7 +61,6 @@ public class Dragon : MonoBehaviour
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
 
-        // Walkpoint reached
         if (distanceToWalkPoint.magnitude < 1f)
             walkPointSet = false;
     }
@@ -67,30 +70,45 @@ public class Dragon : MonoBehaviour
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
-        walkPoint = new Vector3(
+        Vector3 candidatePoint = new Vector3(
             transform.position.x + randomX,
             transform.position.y,
             transform.position.z + randomZ
         );
 
-        walkPointSet = true;
+        NavMeshHit hit;
+        if (NavMesh.SamplePosition(candidatePoint, out hit, 2f, NavMesh.AllAreas))
+        {
+            walkPoint = hit.position;
+            walkPointSet = true;
+        }
+        else
+        {
+            walkPointSet = false;
+        }
     }
 
     private void ChasePlayer()
     {
+        if (!agent.isActiveAndEnabled || player == null)
+            return;
+
+        agent.isStopped = false;
         agent.SetDestination(player.position);
     }
 
     private void AttackPlayer()
     {
+        if (!agent.isActiveAndEnabled)
+            return;
+
+        agent.isStopped = true;
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);
 
         if (!alreadyAttacked)
         {
-            Debug.Log("Attack!");
-
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
@@ -99,5 +117,14 @@ public class Dragon : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
+        
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
