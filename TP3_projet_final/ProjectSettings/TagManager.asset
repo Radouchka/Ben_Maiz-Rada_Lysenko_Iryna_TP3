@@ -16,6 +16,7 @@ TagManager:
   - castle
   - big_ahh_door
   - indoor
+  - dragon
   layers:
   - Default
   - TransparentFX
